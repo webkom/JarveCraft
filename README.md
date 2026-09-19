@@ -11,11 +11,10 @@
   - Custom shaped recipe: 1 Glass Bottle surrounded by 3 Diamonds.
 
 
-    |         |              |         |
+    |         |   Diamond             |         |
     | ------- | ------------ | ------- |
-    |         | Diamond      |         |
     | Diamond | Glass bottle | Diamond |
-    |         |              |         |
+    |          |               |          |
   - Increments the player's shot counter on the sidebar
 - **Live Shots Scoreboard**:
 
