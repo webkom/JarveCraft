@@ -1,0 +1,8 @@
+{
+  "shot_sound": {
+    "category": "player",
+    "sounds": [
+      "jarvecraft:its_jager_time"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+name: JarveCraft
+version: '${version}'
+
+main: dev.webkom.jarveCraft.JarveCraft
+api-version: '1.21'
+load: POSTWORLD
+
+commands:
+  wled:
+    description: Manually trigger or override WLED stages, or reload config.
+    permission: jarvecraft.admin
+    usage: /<command> [overworld|nether|end|death|reload]

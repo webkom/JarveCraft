@@ -1,0 +1,24 @@
+# ================================================================
+# JarveCraft Plugin Configuration
+# ================================================================
+
+# Hardware WLED light synchronization
+wled:
+  # Set to false to disable all HTTP network requests to WLED
+  enabled: true
+  ip: "192.168.1.67"
+  timeout-seconds: 2
+
+# Automatic resource pack delivery to joining players
+resource-pack:
+  enabled: false
+  url: ""
+  # Optional 40-character SHA-1 hex hash
+  hash: ""
+  prompt: "Installer JarveCraft-pakken for custom shots, hatter og malerier!"
+  force: false
+
+# Drinking game settings
+drinking-game:
+  # Duration in ticks for nausea when eating a Golden Apple (20 ticks = 1 second)
+  gapple-nausea-duration-ticks: 200

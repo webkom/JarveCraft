@@ -1,0 +1,47 @@
+# Gradle
+.gradle/
+build/
+
+# Gradle Wrapper (ensure wrapper jar is never ignored)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin
+.kotlin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# Minecraft Server Runtime & Test Server (run-paper)
+run/
+server/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs & Crash Dumps
+*.log
+logs/
+crash-reports/
+
+# Backup & Temporary files
+*.bak
+*.tmp
+*.swp
+*~

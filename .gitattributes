@@ -1,0 +1,17 @@
+# Auto detect text files and normalize line endings to LF on checkout
+* text=auto eol=lf
+
+# Gradle wrapper script must preserve LF line endings
+/gradlew text eol=lf
+
+# Windows batch scripts must preserve CRLF line endings
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary file types
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ogg binary
+*.zip binary
